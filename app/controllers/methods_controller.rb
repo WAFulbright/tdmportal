@@ -1,0 +1,2 @@
+class MethodsController < ApplicationController
+end

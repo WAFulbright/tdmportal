@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
 
 get 'about' => 'about#index'
+get 'services' => 'services#index'
+get 'assets' => 'assets#index'
+get 'datarequests' => 'datarequests#index'
+get 'methods' => 'methods#index'
 
-get 'home/index'
+get 'home' => 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
