@@ -5,6 +5,7 @@ get 'services' => 'services#index'
 get 'assets' => 'assets#index'
 get 'datarequests' => 'datarequests#index'
 get 'methods' => 'methods#index'
+get 'pages' => 'pages#index'
 
 get 'home' => 'home#index'
 
