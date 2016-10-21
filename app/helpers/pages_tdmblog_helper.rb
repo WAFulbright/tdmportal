@@ -1,0 +1,2 @@
+module PagesTdmblogHelper
+end

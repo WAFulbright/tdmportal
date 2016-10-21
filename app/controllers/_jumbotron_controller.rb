@@ -1,0 +1,2 @@
+class JumbotronController < ApplicationController
+end

@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def tdmservices
+  def show
+    render template: "pages/#{params[:pages]}"
   end
 end
