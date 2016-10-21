@@ -1,2 +1,0 @@
-class PagesTdmblogController < ApplicationController
-end
