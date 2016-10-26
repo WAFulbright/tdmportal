@@ -6,8 +6,7 @@ get 'assets' => 'assets#index'
 get 'datarequests' => 'datarequests#index'
 get 'methods' => 'methods#index'
 get 'pages' => 'pages#index'
-
-#get 'tdmblog' => 'pages#show'
+get 'news' => 'news#index'
 get 'home' => 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
