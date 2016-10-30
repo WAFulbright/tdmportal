@@ -1,2 +1,2 @@
-class DatarequestsController < ApplicationController
+class DatarequestsController < ApplicationController   
 end
