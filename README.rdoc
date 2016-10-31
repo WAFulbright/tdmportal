@@ -1,7 +1,4 @@
 == README
-I have been in the IT and Testing world since 1996 learning all I could to get the OJT degree.
-I have learned alot and am still learning.  I hope I always keep learning something new... like Ruby on Rails, Ruby, etc.
-
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
