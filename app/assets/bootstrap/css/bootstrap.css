@@ -3109,7 +3109,7 @@ fieldset[disabled] .btn-default:focus,
 .btn-default.disabled.focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
-  background-color: #fff;
+  background-color: #b0aaff-color: #fff;
   border-color: #ccc;
 }
 .btn-default .badge {
@@ -3171,7 +3171,7 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-primary .badge {
   color: #337ab7;
-  background-color: #fff;
+  background-color: #b0aaff;
 }
 .btn-success {
   color: #fff;

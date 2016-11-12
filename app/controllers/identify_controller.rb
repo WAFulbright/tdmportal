@@ -1,0 +1,2 @@
+class IdentifyController < ApplicationController
+end
