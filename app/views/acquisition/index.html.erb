@@ -6,14 +6,14 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>TCOE | TDM Services</title>
+		<title>Services | Data Acquisition</title>
 
 			<!-- breadcrumb start -->
 			<!-- ================ -->
 			<div class="breadcrumb-container">
 				<div class="container">
 					<ol class="breadcrumb">
-						<li><i class="fa fa-home pr-10"></i><a href="home#index">Home</a></li>
+						<li><i class="fa fa-home pr-10"></i><a href="index.html">Home</a></li>
 						<li class="active">TDM Services</li>
 					</ol>
 				</div>
@@ -32,104 +32,123 @@
 						<div class="main col-md-12">
 							<!-- page-title start -->
 							<!-- ================ -->
-							<h1 class="page-title text-center">TDM <strong>Services</strong></h1>
+							<h1 class="page-title text-center">TDM Services</h1><p>
+                <strong><a href="acquisitions#index"></a><h2><center>Data Acquisition</strong></center></h2>
 							<div class="separator"></div>
 							<br>
 							<!-- page-title end -->
 
+              <div class="row">
+								<div class="col-sm-4">
+									<div class="image-box style-2 mb-20">
+										<div class="overlay-container overlay-visible">
+											<img src="<%= image_url('data-acquisition-system.jpeg') %>" width="240" height="240" alt="data-acq-sys">
+											<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
+											<div class="overlay-bottom hidden-xs">
+												<div class="text">
+													<p class="lead margin-clear text-left"><h3>What is Data Acquisition?</h3></p>
+													 <ul>
+															 <li>Extract from Production<br>
+															 <li>Extract from Data Schema<br>
+															 <li>Extract from Autoation Script<br>
+															 <li>Synthetic Generation<br>
+															 <li>Extract from Test Cases<br>
+                               <li>Extract from Use Cases<br>
+                               <li>Create Manually<br>
+													 </ul>
+													 <a class="link-dark" href="acquisition#index">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							<div class="row">
 								<div class="col-sm-4">
 									<div class="image-box style-2 mb-20">
 										<div class="overlay-container overlay-visible">
-											<img src="<%= image_url('data-id.jpg') %>" width="240" height="240" alt="data-id">
+											<img src="<%= image_url('data-acq-usage.jpeg') %>" width="240" height="240" alt="data-acq-usage">
 											<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
 											<div class="overlay-bottom hidden-xs">
 												<div class="text">
-													<p class="lead margin-clear text-left"><h3><a class="link-dark" href="acquisition#index.html.erb">Data Identification</h3></a></p>
+													<p class="lead margin-clear text-left"><h3>How is Acquired Data Used?</h3></p>
+                           <ul>
+                               <li>Create New Records in GRS Databases<br>
+                               <li>Update Existing Records in GRS Databases<br>
+                               <li>Delete Existing Records in GRS Databases<br>
+                               <li>Archival of Records for future use<br>
+                               <li>Data Refresh after a Reset<br>
+                           </ul>
+													 <a class="link-dark" href="acquisition#index">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
 												</div>
 											</div>
 										</div>
-										<div class="body padding-horizontal-clear">
-											<p>Identification of data is the first step in Test Data Management. We want to ensure you receive the right data in the right way.</p>
-											<a class="link-dark" href="identify#index.html.erb">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
-										</div>
 									</div>
 								</div>
-								<div class="col-sm-4">
-									<div class="image-box style-2 mb-20">
-										<div class="overlay-container overlay-visible">
-											<img src="<%= image_url('data-acquisition.jpg') %>" width="240" height="240" alt="data-acquisition">
-											<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
-											<div class="overlay-bottom hidden-xs">
-												<div class="text">
-													<p class="lead margin-clear text-left"><a class="link-dark" href="acquisition#index.html.erb"><h3>Data Acquisition</h3></a></p>
-												</div>
-											</div>
-										</div>
-										<div class="body padding-horizontal-clear">
-											<p>Once the data need is defined, the data must be produced from one of several methods.  Manual entry, Automated entry, Automated Preparation, Retrive and Scrub from Production.</p>
-											<a class="link-dark" href="acquisition#index.html.erb">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="image-box style-2 mb-20">
-										<div class="overlay-container overlay-visible">
-											<img src="<%= image_url('data-provisioning.jpg') %>" width="240" height="240" alt="data-provisioning">
-											<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
-											<div class="overlay-bottom hidden-xs">
-												<div class="text">
-													<p class="lead margin-clear text-left"><h3>Data Provisioning</h3></p>
-												</div>
-											</div>
-										</div>
-										<div class="body padding-horizontal-clear">
-											<p>Data Strategy and Planning, Data Preparation, Data Distribution, Data Availabililty</p>
-											<a class="link-dark" href=>"#">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
 							<div class="row">
-						<div class="row">
 								<div class="col-sm-4">
 									<div class="image-box style-2 mb-20">
 										<div class="overlay-container overlay-visible">
-											<img src="<%= image_url('data-maintenance2.jpg') %>" width="240" height="240" alt="data-maintenance2">
+											<img src="<%= image_url('data-automation.jpg') %>" width="240" height="240" alt="data-automation">
 											<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
 											<div class="overlay-bottom hidden-xs">
 												<div class="text">
-													<p class="lead margin-clear text-left"><h3>Data Maintenance</h3></p>
+													<p class="lead margin-clear text-left"><h3>Data Creates a PipeLine</h3></p>
+													<ul>
+															<li>1<br>
+															<li>2<br>
+															<li>3<br>
+															<li>4<br>
+															<li>5<br>
+													</ul>
+													<div class="body padding-horizontal-clear">
+														<p>ya-ya-ya-ya Data Pipeline / Digital Pipeline... We want to ensure you receive the right data in the right way.</p>
+													<a class="link-dark" href="news#index">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+												 </div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+					<div class="row">
+								<div class="col-sm-4">
+									<div class="image-box style-2 mb-20">
+										<div class="overlay-container overlay-visible">
+											<img src="<%= image_url('data-digitize.jpeg') %>" width="240" height="240" alt="data-digitize">
+											<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
+											<div class="overlay-bottom hidden-xs">
+												<div class="text">
+													<p class="lead margin-clear text-left"><h3>Data Digital References</h3></p>
 												</div>
 											</div>
 										</div>
 										<div class="body padding-horizontal-clear">
 											<p>Data Storage, Data Migration, Data Mapping, Data Relevance</p>
-											<a class="link-dark" href="">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+											<a class="link-dark" href="news#index">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
 										</div>
 									</div>
 								</div>
 								<div class="col-sm-4">
 									<div class="image-box style-2 mb-20">
 										<div class="overlay-container overlay-visible">
-											<img src="<%= image_url('data-refresh.jpg') %>" width="240" height="240" alt="data-refresh">
+											<img src="<%= image_url('data-big-data.jpeg') %>" width="240" height="240" alt="data-big-data">
 											<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
 											<div class="overlay-bottom hidden-xs">
 												<div class="text">
-													<p class="lead margin-clear text-left"><h3>Data Refresh</h3></p>
+													<p class="lead margin-clear text-left"><h3>Big Data</h3></p>
 												</div>
 											</div>
 										</div>
 										<div class="body padding-horizontal-clear">
 											<p>Data Refreshments!</p>
-											<a class="link-dark" href="">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+										<a class="link-dark" href="news#index">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
 										</div>
 									</div>
 								</div>
 								<div class="col-sm-4">
 									<div class="image-box style-2 mb-20">
 										<div class="overlay-container overlay-visible">
-											<img src="<%= image_url('data-governance.jpg') %>" width="280" height="240" alt="data-governance">
+											<img src="<%= image_url('data-governance2.jpg') %>" width="280" height="240" alt="data-governance2">
 											<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
 											<div class="overlay-bottom hidden-xs">
 												<div class="text">
@@ -139,13 +158,12 @@
 										</div>
 										<div class="body padding-horizontal-clear">
 											<p>Rules, Standards, Processs, Documntation</p>
-											<a class="link-dark" href="">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+											<a class="link-dark" href="news#index">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 						<!-- main end -->
 
 					</div>
