@@ -1,78 +1,115 @@
-      <div class="row">
-           <div class="col-md-6">
-          <h2><font color="dk-orange">What is TDM?</font></h2>
-          <p>TDM is a process and a service that provides or adds value to the testing and delivery effort.  It is flexible, extensible and renewable.  These features make it useful for each and every system in the Environment, or the "echosphere".<br>
-          <p><b>DATA is managed by:</b></p>
-            <ul>
-                <li>Identification<br>
-                <li>Acquisition<br>
-                <li>Provisioning<br>
-                <li>Maintenance<br>
-                <li>Refresh<br>
-                <li>Governance<br>
-                <li>Training<br>
-            </ul>
-            While each system has its own needs, TDM is contextual and allows the unique needs of each system to be met by the TDM framework.
-<p><a class="btn btn-primary btn-med" href="services#index" role="button">Learn more &raquo;</a></p>
-       </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example of Bootstrap 3 Two Column Grid Layouts for Tablets and Desktops</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style type="text/css">
+    /* Some custom styles to beautify this example */
+    .demo-content{
+        padding: 15px;
+        font-size: 18px;
+        min-height: 300px;
+        background: #DDD1E7;
+        margin-bottom: 10px;
+    }
+    .demo-content.bg-alt{
+        background: #b34a00;
+    }
+</style>
+</head>
+<body>
+    <!-- Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive grid system works. -->
 
-        <div class="col-md-6">
-          <h2><font color="orange">The Challenges</font></h2>
-          <p>Testing Can Be<p>
-            <ul> 
-                <li>Unorganized<br>
-                <li>Limited in Scope<br>
-                <li>Code changes affect Manual tests<br>
-                <li>Linear & Dependent<br>
-                <li>Diminished by Quality of Data
-            </ul>
-      Having a consistent, stable and well defined Test Data Management program will alleviate many of these issues.</p>
-          <p><a class="btn btn-primary btn-med" href="challenges#index" role="button">Learn more &raquo;</a></p>
+    <div class="container">
+        <!--Row with two equal columns-->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="demo-content">
+                 <div class="text"> 
+                 <p class="lead margin-clear text-left"><a class="link-dark" href="identify#index.html.erb"><h3>Data Identification & Generation</h3>
+                        <p class="text-muted">Identification of data is the first step in Test Data Management. We want to ensure you receive the right data in the right way.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="demo-content bg-alt">
+                    <div class="embed-container"><center>
+                      <%= embed("https://youtu.be/GTnWMQvRJBE?list=PLO7SodxCJyn6pkhF5r_sT7VUo0yztNfLJ") %>
+                        </center></div></div>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <h2><font color="red">TCOE</font> is pround to present:<br>
-          <font color="dk-orange"><center>CA Test Data Manager</font></center></h2>
-          <p><font color="dk-orange">TCOE</font> is now implementing this tool to accelerate the generation of new data!<font color="dk-orange"> GRS will SING!!</font></p>
-          <p>The Test Data Manager will bring a whole new level to the company's capacity to create, provide, automate, store and deliver on <font color="dk-orange">DEMAND.</font></p>
-          <ul><b>Product </b><br>
-              <li>Generate Synthetic Data - On Demand<br>
-              <li>Validate Source Data<br>
-              <li>Create Summary Table with Key Characteristics<br>
-              <li>Provide Find and Reserve capacity<br>
-              <li>Data feed to Booking Process<br>
-         <p><a class="btn btn-primary btn-med" href="TDM#index" role="button">Learn more &raquo;</a></p>
+
+        <hr>
+
+    <div class="container">
+        <!--Row with two equal columns-->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="demo-content">
+                <div class="text">
+                          <p class="lead margin-clear text-left"><a class="link-dark" href="acquisition#index.html.erb"><h3>Data Acquisition</h3></a></p>
+                    <div class="body padding-horizontal-clear">
+                      <p>Once the data need is defined, the data must be produced from one of several methods.  Manual entry, Automated entry, Automated Preparation, Retrive and Scrub from Production.</p>
+                      <a class="link-dark" href="acquisition#index.html.erb">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="demo-content bg-alt">
+                <div class="embed-container"><center>
+                <%= embed("https://youtu.be/FZKQXmjZXY8") %>
+                </center></div></div>
+            </div>
         </div>
-        <div class="col-md-6">
-          <h2><font color="dk-red">NEXT STEPS?</b></font></h2>
-          <ul><b>Completion of Tool Implementation</b><br>
-              <li>Training - how we will use it help us.  Learn about it's time saving features<br>
-              <li>Hands on Learning and Usage<br>
-              <li>Learn how to Create Test Data<br>
-              <li>Learn the Automation Features<br>
-              <li>Data Migration with Integrity<br>
-          <p><a class="btn btn-primary btn-med" href="nextsteps#index" role="button">Learn more &raquo;</a></p>
+
+        <hr>
+
         </div>
-        </div>
-        <div class="col-md-6">
-          <h2>"Shift Left" Testing Effort</b></h2>
-          <ul><b>Focus on Quality from Day One</b><br>
-              <li>Identify and Fix defects <br>
-              <li>Test Plans based upon Modeling<br>
-              <li>Data Generation</br>
-              <li>Continuous Delivery via planned staging<br>
-              <li>Back-End System Availability<br>
-              <li>Model-based Testing supporting service virtualization<br>
-          <p><a class="btn btn-primary btn-med" href="shiftleft#index" role="button">Learn more &raquo;</a></p>
-        </div>
-        <div class="col-md-6">
-          <h2>Right Test Environment Setup</b></h2>
-          <ul><b>Rapid Set-Up and Delivery</b><br>
-              <li>Quick Set-up<br>
-              <li>Sustainable / Repeatable Environments</br>
-              <li>Continuous Delivery via planned staging<br>
-              <li>Back-End System Availability<br>
-              <li>Model-based Testing supporting service virtualization<br>
-          <p><a class="btn btn-primary btn-med" href="righttestingsetup#index" role="button">Learn more &raquo;</a></p>
-      </div>
+    </div>
+</body>
+</html>                                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
